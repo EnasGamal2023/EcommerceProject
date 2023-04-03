@@ -1,0 +1,60 @@
+.card {
+  width: 275px;
+  padding: 16px;
+  border: 1px solid lightgray;
+  position: relative;
+  min-height: 380px;
+}
+.card:hover .bgblue {
+  opacity: 1;
+}
+
+.relative {
+  position: relative;
+}
+
+.width243 {
+  width: 243px;
+  height: 243px;
+}
+
+.my {
+  margin: 8px 0;
+}
+
+.bgblue {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #27B1FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 16px;
+  bottom: -8px;
+  opacity: 1;
+  transition: 0.4s ease-in-out;
+  transform: scale(1);
+  cursor: pointer;
+}
+.bgblue:hover {
+  transform: scale(1.1);
+}
+
+@media (hover: hover) {
+  .bgblue {
+    opacity: 0;
+  }
+}
+
+.cardIcon {
+  filter: brightness(0) invert(1);
+  width: 24px;
+  height: 24px;
+}
+
+.bgblue {
+  color: #8d8f9a;
+  text-transform: uppercase;
+}
