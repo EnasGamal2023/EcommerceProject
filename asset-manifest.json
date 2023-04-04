@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EcommerceProject/static/css/main.e1fda845.css",
+    "main.js": "/EcommerceProject/static/js/main.896595a9.js",
+    "static/media/imglogo3.jpg": "/EcommerceProject/static/media/imglogo3.41290e55996a985e6e32.jpg",
+    "static/media/img2_category.jpg": "/EcommerceProject/static/media/img2_category.2028294d800ecf29a193.jpg",
+    "index.html": "/EcommerceProject/index.html",
+    "main.e1fda845.css.map": "/EcommerceProject/static/css/main.e1fda845.css.map",
+    "main.896595a9.js.map": "/EcommerceProject/static/js/main.896595a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1fda845.css",
+    "static/js/main.896595a9.js"
+  ]
+}
