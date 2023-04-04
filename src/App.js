@@ -129,7 +129,7 @@ function App() {
       />
       <Routes>
         <Route
-          path="/"
+          path="/EcommerceProject"
           element={
             <ProductItems
               chosenCategory={chosenCategory}
@@ -139,11 +139,11 @@ function App() {
           }
         />
         <Route
-          path="/products/:id"
+          path="EcommerceProject/products/:id"
           element={<ProductDetails handleAddToCard={handleAddToCard} />}
         />
         <Route
-          path="/bag"
+          path="EcommerceProject/bag"
           element={
             <Bag
               cardItems={cardItems}

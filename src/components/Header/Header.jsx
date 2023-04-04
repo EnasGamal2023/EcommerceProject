@@ -49,7 +49,7 @@ export function Header({
               <NavLink
                 onClick={() => choseCategory(category)}
                 className={category === chosenCategory ? Styles.active : null}
-                to="/"
+                to="/EcommerceProject"
               >
                 {category}
               </NavLink>

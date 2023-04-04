@@ -45,7 +45,7 @@ function CardOverlay({
             onClick={() => setDisplayCard(!displayCard)}
             className={Styles.actionButton}
           >
-            <Link to={`/bag`}>
+            <Link to={`/EcommerceProject/bag`}>
               <button>view bag</button>
             </Link>
           </div>

@@ -9,7 +9,7 @@ function ProductItem({ product, handleAddToCard }) {
   return (
     <div className={Styles.card}>
       <div className={Styles.relative}>
-        <Link to={`/products/${product.id}`}>
+        <Link to={`/EcommerceProject/products/${product.id}`}>
           <img
             className={Styles.width243}
             src={product.image}
